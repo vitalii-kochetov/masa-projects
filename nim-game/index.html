@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="game">
+      <div id="startContainer">
+        <h1>Nim game</h1>
+        <p>
+          Enter the maximum number and the maximum step. Your goal is to reach
+          the maximum number faster than the computer. Good luck!
+        </p>
+        <input
+          type="number"
+          placeholder="enter max number"
+          id="inputMaxNumber"
+        />
+        <br />
+        <input type="number" placeholder="enter max step" id="inputMaxStep" />
+        <br />
+        <select id="whoSrarts">
+          <option value="``">"--Choose who start--"</option>
+          <option value="user">User</option>
+          <option value="pc">PC</option>
+        </select>
+        <br />
+        <input type="button" value="start game" id="btnStartGame" />
+        <p id="mistakeInStart"></p>
+        <br />
+      </div>
+      <div id="mainContainer">
+        <h1>Nim game</h1>
+        <div id="outputTotalNumber"></div>
+        <div id="outputMaxNumber"></div>
+        <div id="currentNumbers"></div>
+        <input type="number" placeholder="enter your number" id="usersNumber" />
+        <br />
+        <input type="button" value="make step" id="btnNextStep" />
+      </div>
+      <div id="finishContainer"></div>
+      <script src="./script.js"></script>
+    </div>
+  </body>
+</html>

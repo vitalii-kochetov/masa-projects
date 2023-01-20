@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+
+body {
+  background-color: #001a23;
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+#game {
+  width: 50vw;
+  margin-left: 25vw;
+  margin-top: 25vh;
+  min-height: 50vh;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #31493c;
+  color: #e8f1f2;
+  padding: 5vh;
+}
+
+select,
+input {
+  display: inline-block;
+  margin: 1.5vh;
+  border-radius: 3px;
+  font-size: 1.5rem;
+}
+
+input[type="button"] {
+  background-color: #7a9e7e;
+}
+
+input[type="button"]:hover {
+  background-color: #b3efb2;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 1.7rem;
+}
+
+#mistakeInStart {
+  color: red;
+  font-weight: bold;
+}
+
+#finishContainer {
+  margin-top: 20vh;
+  font-size: 3rem;
+  color: yellow;
+  font-weight: bold;
+}
