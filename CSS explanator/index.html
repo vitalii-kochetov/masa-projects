@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>CSS explanator</h1>
+    <div class="container">
+      <div class="explanation">
+        <h3>Word-spacing:</h3>
+
+        <p>Enter number in .px:</p>
+        <input type="number" class="numberSpacing" />
+        <input
+          type="button"
+          class="numberSpacingChange"
+          value="change spacing"
+        />
+        <div class="changedPix">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam
+          ipsa consequatur ducimus aspernatur distinctio, soluta quam. Similique
+          iusto adipisci vel porro alias accusamus quisquam esse, velit quasi
+          accusantium a nobis!
+        </div>
+      </div>
+      <div class="explanation">
+        <h3>Opacity:</h3>
+        <input
+          type="range"
+          min="0"
+          max="1"
+          value="1"
+          step="0.1"
+          class="opacity"
+        />
+        <br />
+        <img
+          class="opacityImage"
+          src="https://i0.wp.com/www.touristisrael.com/wp-content/uploads/2012/12/shutterstock_415012924-scaled.jpg?fit=2560%2C1701&ssl=1"
+          alt="image of tel aviv"
+        />
+      </div>
+      <div class="explanation">
+        <h3>Background color:</h3>
+        <p>click to change color:</p>
+        <input type="color" class="color" />
+      </div>
+      <div class="explanation">
+        <h3>Filter CSS property:</h3>
+        <div class="filterDiv">
+          <div class="filterMenu">
+            <input type="button" value="Blur" class="filterButton buttonBlur" />
+            <input type="button" value="B/W" class="filterButton buttonBW" />
+            <input
+              type="button"
+              value="Shadow"
+              class="filterButton buttonShadow"
+            />
+          </div>
+          <img
+            class="filterImage"
+            src="https://www.elal.com/SiteCollectionImages/Destanation/Israel/Haifa/_0001_shutterstock_104699834.jpg"
+            alt="haifa"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
