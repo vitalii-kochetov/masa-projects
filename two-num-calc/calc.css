@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 1vh;
+  font-family: "Nunito", sans-serif;
+  color: rgb(223, 223, 223);
+}
+
+body {
+  background-color: rgb(68, 68, 68);
+}
+
+.container {
+  width: 50vw;
+  height: 50vh;
+  background-color: rgb(41, 41, 41);
+  margin-left: 25vw;
+  margin-top: 20vh;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+input {
+  text-align: center;
+  font-size: 2rem;
+  color: black;
+}
+
+button {
+  font-size: 2vw;
+  color: black;
+  background-color: rgb(226, 226, 226);
+  border-radius: 4px;
+  width: 3vw;
+  text-align: center;
+}
+
+button:hover {
+  background-color: rgb(255, 143, 143);
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: rgb(255, 85, 85);
+  transition: all 0.1s;
+}
